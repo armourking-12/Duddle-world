@@ -1,0 +1,94 @@
+body{
+	width:100%;
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:200px;
+	padding:2px;
+	background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+    border-radius:7px;
+	font-size:20px;
+	width: 60px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+.btn3d.btn-default {
+	color: #000000;
+	box-shadow: 0 0 0 1px #dd8ce1 inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #a25ca1, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #df60bd;
+}
+
+.btn3d.btn-default:active,
+.btn3d.btn-default.active {
+	color: #070606;
+	box-shadow: 0 0 0 1px #e869e6 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #df60bd;
+}
+.btn3d.btn-minecraft {
+	color: #000000;
+	box-shadow: 0 0 0 1px #e63c7d inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #d02b5f, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #d10758;
+}
+
+.btn3d.btn-minecraft:active,
+.btn3d.btn-minecraft.active {
+	color: #070606;
+	box-shadow: 0 0 0 1px #e63c7d  inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #e63c7d ;
+}
+.btn3d.btn-Phython {
+	color: #000000;
+	box-shadow: 0 0 0 1px #b81f8f inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #af3894, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #ac1784;
+}
+
+.btn3d.btn-Phython:active,
+.btn3d.btn-Phython.active {
+	color: #070606;
+	box-shadow: 0 0 0 1px #b532b1 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #c10d8e;
+}
+.box{
+	background-color: rgb(49, 48, 48);
+	border:1px;
+	background:transparent;
+	font-size: 25px;
+	width:100%;
+	border : 0px;
+	text-align: right;
+	padding-top: 30px;
+	color:#8ba7e0;
+}
+.container{
+	border:2px solid #717377 ;
+	padding:20px;
+	border-radius: 16px;
+	background:transparent;
+	box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+
+
+}
